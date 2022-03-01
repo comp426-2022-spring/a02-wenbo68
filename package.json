@@ -1,13 +1,14 @@
 {
   "name": "coinflip",
   "version": "0.0.1",
+  "type": "module",
   "description": "This is a simple package that emulates coin flips in several different ways.",
   "main": "flip.js",
-  "scripts": {  	
-	"flip": "node flip.js",
-    	"flips": "node flips.js",
-    	"guess": "node guess-flip.js", 
-  	"test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {
+    "flip": "node flip.js",
+    "flips": "node flips.js",
+    "guess": "node guess-flip.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "url": "git+https://github.com/comp426-2022-spring/a02-wenbo68.git"
@@ -17,6 +18,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-wenbo68/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-wenbo68#readme"
-  "type": "module"
+  "homepage": "https://github.com/comp426-2022-spring/a02-wenbo68#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
